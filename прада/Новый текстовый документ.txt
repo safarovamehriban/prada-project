@@ -1,0 +1,603 @@
+    <!--!mehsullar start-->
+    <section class="mehsullar">
+      <h1> <span>Məhsullar</span></h1>
+        <div class="box-container">
+          <div class="box">
+          <div class="box-head">
+            <img src="Ust (1).jpg" alt="women" style="height: 800px; width: 580px;border-radius: 1rem;">
+          </div>
+          <div class="box-bottom">
+          <h3>Üst</h3>
+          <div class="box-bottom">
+            <a href="#" class="btn">Daha çox məhsul</a>
+          </div>
+        </div>
+    </div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="Ayaqqabı.jpg" alt="men" style="height: 800px; width: 600px;border-radius: 1rem;">
+      </div>
+      <div class="box-bottom">
+      <h3>Ayaqqabı</h3>
+      <div class="box-bottom">
+        <a href="#" class="btn">Daha çox məhsul</a>
+      </div>
+    </div>
+</div>
+
+    <div class="box">
+      <div class="box-head">
+        <img src="Aksessuar.jpg" alt="men" style="height: 800px; width: 600px;border-radius: 1rem;">
+      </div>
+      <div class="box-bottom">
+      <h3>Aksessuar</h3>
+      <div class="box-bottom">
+        <a href="#" class="btn">Daha çox məhsul</a>
+      </div>
+    </div>
+</div>
+      
+      
+    </section>
+
+  <!--!mehsullar end-->
+
+
+  <!--!about start-->
+  <section class="about" id="about">
+      <h1 class="heading">Haqqımızda </h1>
+      <div class="row">
+          <div class="image">
+              <img src="./images/nut.jpeg" alt="">
+          </div>
+          <div class="content">
+              <h3>Nutella qatlı tort</h3>
+              <p>27 inqrediyent<br>
+                  Soyudulmuş
+                  6 yumurta ağı,
+                  4 yumurta<br>
+                  Ədviyyatlar<br>
+                  3 xörək qaşığı Nutella
+                  1 bit Nutella<br>
+                  Çörəkçilik və Ədviyyatlar<br>
+                  4 x.q qabartma tozu
+                  150 q şokolad
+                  1 şokolad səpilir
+                  1 şokolad
+                  15 xörək qaşığı kakao tozu, təmiz
+                  400 q un
+                  75 q şəkər tozu
+                  1 ç.q Duz
+                  1 çimdik duz
+                  750 q şəkər
+                  3 x.q Vanil</p><br>
+              <p>Süd məhsulları<br>
+                  330 q Kərə yağı
+                  1 ç. kərə yağı
+                  500 q mascarpone
+                  400 ml süd
+                  250 ml Çırpma kremi
+                  75 qr qaymaq<br>
+                  Mayelər<br>
+                  90 ml su.</p><br>
+              <p>Yağlar və Sirkələr<br>
+                  200 ml günəbaxan yağı
+                  1 damcı sirkə.</p>
+              <a href="#" class="btn">learn more</a>
+
+
+
+          </div>
+      </div>
+
+
+
+  </section>
+
+
+  <!--!about end-->
+
+  <!--!contact start-->
+  <section class="contacts" id="contacts">
+      <h1 class="heading">Bizimlə<span>Əlaqə</span></h1>
+      <div class="row">
+          <iframe class="map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12158.994063293934!2d49.806691036535646!3d40.37010026992726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307dc397d94dc3%3A0x617bc46b47244c00!2sAzerbaijan%20Technical%20University!5e0!3m2!1sen!2s!4v1670476990395!5m2!1sen!2s"
+              loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+          <form>
+              <h3>Get in Touch</h3>
+              <div class="inputBox">
+                  <i class="fas fa-user"></i>
+                  <input type="text" placeholder="name" />
+              </div>
+              <div class="inputBox">
+                  <i class="fas fa-envelope"></i>
+                  <input type="email" placeholder="email" />
+              </div>
+              <div class="inputBox">
+                  <i class="fas fa-phone"></i>
+                  <input type="number" placeholder="phone number" />
+              </div>
+              <input type="submit" class="btn" value="contact Now">
+          </form>
+
+      </div>
+  </section>
+  <!--!contanct end-->
+
+  <!--!blog start-->
+  <section class="blogs" id="blogs">
+      <h1 class="heading">Yeni ilə özəl <span>Rezerv</span></h1>
+      <div class="box-container">
+          <div class="box">
+              <div class="image">
+                  <img src="images/blog1.jpeg" alt="blog">
+              </div>
+              <div class="content">
+                  <a href="#" class="title">how to make burgers?</a>
+                  <span>by andim/9st December ,2022</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quos rerum similique sapiente,
+                      facilis a nostrum tempore voluptate! Eos, eligendi?</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+          <div class="box">
+              <div class="image">
+                  <img src="images/blog2.jpeg" alt="blog">
+              </div>
+              <div class="content">
+                  <a href="#" class="title">how to make burgers?</a>
+                  <span>by andim/9st December ,2022</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quos rerum similique sapiente,
+                      facilis a nostrum tempore voluptate! Eos, eligendi?</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+          <div class="box">
+              <div class="image">
+                  <img src="images/blog3.jpeg" alt="blog">
+              </div>
+              <div class="content">
+                  <a href="#" class="title">how to make burgers?</a>
+                  <span>by andim/9st December ,2022</span>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla quos rerum similique sapiente,
+                      facilis a nostrum tempore voluptate! Eos, eligendi?</p>
+                  <a href="#" class="btn">read more</a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+
+  <!--!blog end-->
+  <!--!footer start-->
+  <footer class="footer">
+      <div class="search">
+          <input type="text" class="search-input" placeholder="Search">
+          <button class="btn btn-primary">search</button>
+      </div>
+      <div class="share">
+          <a href="#" class="fab fa-facebook"></a>
+          <a href="#" class="fab fa-twitter"></a>
+          <a href="#" class="fab fa-instagram"></a>
+          <a href="#" class="fab fa-linkedin"></a>
+          <a href="#" class="fab fa-pinterest"></a>
+
+      </div>
+      <div class="links" style="border-color: black;">
+          <a href="#" class="active">Home</a>
+          <a href="#">About</a>
+          <a href="#">Menu</a>
+          <a href="#">Products</a>
+          <a href="#">Review</a>
+          <a href="#">Contacts</a>
+          <a href="#">Blogs</a>
+      </div>
+      <div class="credit">
+          Created By <span>Safarova</span>
+      </div>
+  </footer>
+
+
+
+  <!--!footer end-->
+  <script src="js/script.js"></script>
+
+
+
+
+
+
+
+
+
+
+  /*! mehsullar start  */
+.qadinkisi .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .products .box-container .box {
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    border-radius: 3rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+  }
+  
+  .products .box-container .box .box-head {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .products .box-container .box .box-head .title {
+    font-size: 1.4rem;
+  }
+  
+  .products .box-container .box .box-head .name {
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: start;
+    overflow-wrap: anywhere;
+  }
+  
+  .products .box-container .dark-bg .box-head .name,
+  .products .box-container .dark-bg .box-head .title {
+    color: #fff;
+  }
+  
+  .products .box-container img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    border-radius: 3rem;
+  }
+  
+  .products .box-container .dark-bg img {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: unset;
+  }
+  
+  .products .box-container .box-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+  }
+  
+  .products .box-container .box-bottom .info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .products .box-container .box-bottom .info .price {
+    font-size: 3rem;
+  }
+  
+  .products .box-container .box-bottom .info .amount {
+    font-size: 1.4rem;
+  }
+  
+  .products .box-container .dark-bg .box-bottom .info .price,
+  .products .box-container .dark-bg .box-bottom .info .amount {
+    color: #fff;
+  }
+  
+  .products .box-container .box-bottom .product-btn a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 6.5rem;
+    height: 6.5rem;
+    border: 0.2rem solid var(--main-color);
+  }
+  
+  .products .box-container .box-bottom .product-btn a i {
+    font-size: 1.6rem;
+    color: var(--main-color);
+  }
+  /*! mehsullar end  */
+  
+  /*! about start  */
+  .about .row {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+  }
+  
+  .about .row .image {
+    flex: 1 1 45rem;
+  }
+  
+  .about .row img {
+    width: 100%;
+  }
+  
+  .about .row .content {
+    flex: 1 1 45rem;
+  }
+  
+  .about .row .content h3 {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .about .row .content p {
+    font-size: 1.6rem;
+    color: #ccc;
+    padding: 1rem 0;
+    line-height: 1.8;
+  }
+  
+  /*! about end  */
+  
+  
+  /*! contact start  */
+  
+  .contacts .row {
+      display: flex;
+    background-color: var(--black-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .contacts .row .map {
+    flex: 1 1 45rem;
+    width: 100%;
+    object-fit: cover;
+  }
+  .contacts .row form {
+    flex: 1 1 45rem;
+    padding: 5rem 2rem;
+    text-align: center;
+  }
+  
+  .contacts .row form h3 {
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  
+  .contacts .row form .inputBox {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+    border: var(--border);
+  }
+  
+  .contacts .row form .inputBox i {
+    color: #fff;
+    font-size: 2rem;
+    padding-left: 2rem;
+  }
+  
+  .contacts .row form .inputBox input {
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: none;
+    background-color: transparent;
+  }
+  
+  .contacts .row form .btn {
+    color: var(--main-color);
+    background-color: #fff;
+    font-weight: bold;
+  }
+  
+  /*! contact end  */
+  
+  /*! blog start  */
+  .blogs .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .blogs .box-container .box {
+    background-color: #fff;
+    border-radius: 3rem;
+  }
+  
+  .blogs .box-container .box .image {
+    height: 25rem;
+    overflow: hidden;
+    width: 100%;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+  }
+  
+  .blogs .box-container .box .image img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .blogs .box-container .box:hover .image img {
+    transform: scale(1.2);
+  }
+  
+  .blogs .box-container .box .content {
+    padding: 2rem;
+  }
+  
+  .blogs .box-container .box .content .title {
+    line-height: 1.5;
+    font-size: 2.5rem;
+  }
+  
+  .blogs .box-container .box .content span {
+    display: block;
+    padding-top: 1rem;
+    font-size: 2rem;
+  }
+  
+  .blogs .box-container .box .content p {
+    font-size: 1.6rem;
+    line-height: 1.8;
+    color: #ccc;
+    padding: 1rem 0;
+  }
+  /*! blog end  */
+  
+  /*! footer start  */
+  .footer {
+    background-color: var(--black-color);
+    text-align: center;
+  }
+  
+  .footer .search {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer .search .search-input {
+    width: 30rem;
+    margin-top: 20px;
+  }
+  
+  .footer .search .btn-primary {
+    background-color: var(--main-color);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+  }
+  
+  .footer .share {
+    padding: 2rem 0;
+  }
+  
+  .footer .share a {
+    width: 5rem;
+    height: 5rem;
+    line-height: 5rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+    border-radius: 50%;
+    margin: 0.3rem;
+  }
+  
+  .footer .share a:hover {
+    background-color: var(--main-color);
+  }
+  
+  .footer .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .footer .links a {
+    background-color: var(--main-color);
+    padding: 0.7rem 2rem;
+    color: #fff;
+    font-size: 2rem;
+    border: var(--border);
+  }
+  
+  .footer .links a:hover {
+    background-color: var(--black-color);
+    opacity: 0.7;
+  }
+  
+  .footer .links a.active {
+    background-color: var(--black-color);
+  }
+  
+  .footer .credit {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: 300;
+    padding-top: 1.5rem;
+  }
+  
+  .footer .credit span {
+    color: var(--main-color);
+  }
+  /*! footer end  */
+  
+  /*! responsive start  */
+  @media (max-width: 991px) {
+    html {
+      font-size: 55%;
+    }
+  
+    .header {
+      padding: 1.5rem 2rem;
+    }
+  
+    .header .logo img {
+      height: 7rem;
+    }
+  
+    section {
+      padding: 2rem;
+    }
+  
+    .products .box-container .box .box-head .name {
+      font-size: 3.4rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header #menu-btn {
+      display: inline-block;
+    }
+  
+    .header .navbar {
+      position: absolute;
+      top: 95%;
+      background-color: #fff;
+      height: calc(100vh - 9rem);
+      width: 30rem;
+      box-shadow: 0px 20px 14px 0px rgb(0 0 0 / 75%);
+      right: -100%;
+    }
+  
+    .header .navbar.active {
+      right: 3rem;
+    }
+  
+    .header .navbar a {
+      color: var(--black-color);
+      display: block;
+      margin: 1.5rem;
+      padding: 0.5rem;
+      font-size: 2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    html {
+      font-size: 50%;
+    }
+  
+    .header .search-form {
+      width: 30rem;
+    }
+  }
+  
+  /*! responsive end  */

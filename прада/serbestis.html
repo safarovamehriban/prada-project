@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    var device = 'desktop'; function init($) {
+    $('#previewDesktopBtn').click(function (e) {
+    setLivePreviewFrameSize($(this)); setActiveResponsiveButton(this);
+    e.preventDefault(); }); $('#previewLaptopBtn').click(function (e) {
+    setLivePreviewFrameSize($(this)); setActiveResponsiveButton(this);
+    e.preventDefault(); }); $('#previewTabletBtn').click(function (e) {
+    setLivePreviewFrameSize($(this)); setActiveResponsiveButton(this);
+    e.preventDefault(); }); $('#previewPhoneHorizontalBtn').click(function (e) {
+    setLivePreviewFrameSize($(this)); setActiveResponsiveButton(this);
+    e.preventDefault(); }); $('#previewPhoneBtn').click(function (e) {
+    setLivePreviewFrameSize($(this)); setActiveResponsiveButton(this);
+    e.preventDefault(); }); detectActiveResponsiveButton(); } if
+    (jQuery.isReady) { init(jQuery); } else { jQuery(function ($) { init($); });
+    } function setActiveResponsiveButton(btn) { $(".page-preview-header >
+    a").removeClass("active"); $(btn).addClass("active"); } function
+    detectActiveResponsiveButton() { var d = device; if (!d) { d = 'desktop'; }
+    $("#preview" + d.charAt(0).toUpperCase() + d.substr(1) + "Btn").click(); }
+    function getDataPreviewSizeAttr(el) { return
+    el.closest("[data-preview-size]").attr("data-preview-size"); } function
+    setLivePreviewFrameSize(srcEl) { var getScrollbarWidth = function () { var s
+    = $('
+    <div
+      style="
+        width: 100px;
+        height: 100px;
+        overflow: scroll;
+        visibility: hidden;
+        position: absolute;
+        top: -99999px;
+      "
+    >
+      <div style="height: 200px"></div>
+    </div>
+    ') .appendTo("body"); var res = s.width() - s.find("div").last().width();
+    s.remove(); return res; }; var attr = getDataPreviewSizeAttr(srcEl);
+    $('#livePreviewFrame').width(attr.indexOf("%") !== -1 ? attr :
+    parseInt(attr, 10) + getScrollbarWidth()); }
+  </body>
+</html>
